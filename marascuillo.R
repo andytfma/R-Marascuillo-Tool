@@ -8,6 +8,7 @@ value = critvalue = comparison = c()
 categories <- c(seq(1:N))
 categories <- paste("cat", seq(1:N), sep="")
 categories
+
 ## Compute critical values.
 for (i in 1:(N-1)){ 
   for (j in (i+1):N){
